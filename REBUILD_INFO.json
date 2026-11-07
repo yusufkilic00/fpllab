@@ -1,0 +1,24 @@
+{
+  "gameweeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "fixtures": 90,
+  "schedule_fixtures": 380,
+  "players": 670,
+  "events": 130459,
+  "source_event_rows": 154956,
+  "player_logs": 5924,
+  "metrics": 146,
+  "mapped_external_player_ids": 453,
+  "mapped_fpl_player_ids": 453,
+  "linked_event_pct": 99.95,
+  "updated": "2026-11-07T03:57:02.946078+00:00"
+}

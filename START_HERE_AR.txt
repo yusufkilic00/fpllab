@@ -1,0 +1,23 @@
+FPL LAB — START HERE
+====================
+
+عندك طريقتان لاستخدام المشروع:
+
+1) النسخة المحلية Admin
+- شغّل START_WINDOWS.bat أو: python server.py --open
+- من Data Studio ارفع ZIP الأداء وZIP الأحداث واضغط Validate & apply.
+- التحديث يحدّث data.js المحلي + web_data الخاص بالنشر تلقائياً.
+
+2) النشر على GitHub + Cloudflare
+- لا ترفع data.js أو source_archives أو dist؛ .gitignore يمنعهم تلقائياً.
+- ارفع web_data والكود.
+- Cloudflare Pages settings:
+  Build command: python3 tools/build_cloudflare.py
+  Build output directory: dist
+  Production branch: main
+
+قبل أي Push:
+  Windows: BUILD_CLOUDFLARE_WINDOWS.bat
+  macOS/Linux: ./BUILD_CLOUDFLARE_MAC_LINUX.sh
+
+الدليل التفصيلي: CLOUDFLARE_DEPLOY_AR.md

@@ -1,0 +1,16 @@
+# Local data-admin state (never push these)
+data.js
+backups/
+source_archives/
+fpl-update-*/
+__pycache__/
+*.pyc
+
+# Generated Cloudflare output (Cloudflare builds this itself)
+/dist/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
